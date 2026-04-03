@@ -314,3 +314,22 @@ tr td {
     text-decoration: none;
     font-weight: bold;
 }
+
+
+
+
+/* footer */
+footer {
+    background-color: var(--purple);
+    color: var(--white);
+    display: flex;
+    padding: 40px;
+}
+
+footer p {
+    margin: auto;
+}
+
+footer a {
+    color: var(--white);
+}

@@ -168,28 +168,28 @@ li a {
 
 
 /* main , services */
-section.services {
+.services {
     background-color: var(--purple);
     padding: 18px;
 }
 
-section.services h2 {
+.services h2 {
     padding: 4px;
 }
 
-section.services h3 {
+.services h3 {
     font-weight: bold;
     color: var(--yellow);
     padding: 4px;
 }
 
-section.services h4 {
+.services h4 {
     font-weight: bold;
     color: var(--purple);
     padding: 8px 0;
 }
 
-section.services section {
+.services section {
     background-color: var(--white);
     border-radius: 4%;
     padding: 26px 22px;
@@ -208,6 +208,41 @@ img {
 
 
 /* main , choose-us */
-main section.choose-us {
+.choose-us {
     background-color: var(--pink);
+    padding: 18px;
+}
+
+.choose-us h2 {
+    margin: 8px 0;
+}
+
+.choose-us ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choose-us li {
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8%;
+    padding: 40px 22px;
+    margin: 8px;
+    flex: 0 0 145px;
+}
+
+.choose-us li:nth-child(1) {
+    background-color: var(--teal);
+}
+
+.choose-us li:nth-child(2) {
+    background-color: var(--lavender);
+}
+
+.choose-us li:nth-child(3) {
+    background-color: var(--yellow);
+}
+
+.choose-us li:nth-child(4) {
+    background-color: var(--white);
 }

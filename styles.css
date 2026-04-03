@@ -97,6 +97,7 @@ nav h2 {
     font-style: italic;
     text-transform: uppercase;
     color: var(--dark-gray);
+    padding: 4px;
 }
 
 h2 {
@@ -132,18 +133,28 @@ header {
 header p {
     font-style: italic;
     color: var(--white);
-    padding: 12px 0;
+    padding: 12px 0 4px;
 }
 
 /* nav */
 nav {
     background-color: var(--yellow);
     text-align: center;
+    padding: 12px;
 }
 
 nav ul {
     text-transform: uppercase;
     font-weight: bold;
-    background-color: var(--white);
     color: var(--purple);
+}
+
+nav ul li {
+    background-color: var(--white);
+    margin: 8px;
+    padding: 16px;
+}
+
+li a {
+    text-decoration: none;
 }

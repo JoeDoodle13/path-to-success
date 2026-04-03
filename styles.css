@@ -284,3 +284,33 @@ tr td {
     padding: 16px;
     border: 2px solid var(--yellow);
 }
+
+
+
+
+/* main , first-step */
+.first-step {
+    background-color: var(--pink);
+    color: var(--white);
+    padding: 18px 18px 12px;
+}
+
+.first-step p {
+    margin: 8px 0;
+}
+
+.first-step div {
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 8px;
+    max-width: 350px;
+    margin: auto;
+    padding: 8px;
+    box-shadow: 6px 6px 4px black;
+}
+
+.first-step a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}

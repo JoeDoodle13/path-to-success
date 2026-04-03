@@ -173,9 +173,34 @@ main {
     padding: 12px;
 }
 
+main h2 {
+    padding: 4px;
+}
+
+main h3 {
+    font-weight: bold;
+    color: var(--yellow);
+    padding: 4px;
+}
+
+main h4 {
+    font-weight: bold;
+    color: var(--purple);
+    padding: 6px;
+}
+
 main section section {
     background-color: var(--white);
     border-radius: 4%;
-    padding: 18px;
+    padding: 24px 18px;
     margin: 12px;
+}
+
+main p {
+    padding: 6px;
+    line-height: 1.5em;
+}
+
+img {
+    padding: 8px 0;
 }

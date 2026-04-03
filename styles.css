@@ -2,6 +2,7 @@
 
 
 /* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 
 
@@ -60,8 +61,50 @@ table {
 
 
 /* ROOT VARIABLES */
+:root {
+    /* fonts */
+    --header-fonts: Kavoon;
+    --text-fonts: Inter;
+
+    /* colors */
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57; 
+    --pink:#D9526F;
+    --dark-gray:#1E1E1E; 
+    --white:#ffffff; 
+
+
+}
 
 
 
+/* GLOBAL STYLES */
+h1, h2 {
+    font-family: var(--header-fonts);
+}
 
-/* GLOBAL STYLES */ß
+h1 {
+    font-size: 3em;
+}
+
+nav h2 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.15em;
+}
+
+body {
+    font-family: var(--text-fonts);
+}

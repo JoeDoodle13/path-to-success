@@ -83,6 +83,7 @@ table {
 /* GLOBAL STYLES */
 h1, h2 {
     font-family: var(--header-fonts);
+    color: var(--white);
 }
 
 h1 {
@@ -90,7 +91,12 @@ h1 {
 }
 
 nav h2 {
+    font-family: var(--text-fonts);
     font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    color: var(--dark-gray);
 }
 
 h2 {
@@ -105,6 +111,39 @@ h4 {
     font-size: 1.15em;
 }
 
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
     font-family: var(--text-fonts);
+    background-color: var(--lavender);
+    max-width: 450px;
+}
+
+/* header */
+header {
+    background-color: var(--purple);
+    padding: 30px 20px 40px;
+    text-align: center;
+}
+
+header p {
+    font-style: italic;
+    color: var(--white);
+    padding: 12px 0;
+}
+
+/* nav */
+nav {
+    background-color: var(--yellow);
+    text-align: center;
+}
+
+nav ul {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--white);
+    color: var(--purple);
 }

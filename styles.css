@@ -167,40 +167,47 @@ li a {
 
 
 
-/* main */
-main {
+/* main , services */
+section.services {
     background-color: var(--purple);
-    padding: 12px;
+    padding: 18px;
 }
 
-main h2 {
+section.services h2 {
     padding: 4px;
 }
 
-main h3 {
+section.services h3 {
     font-weight: bold;
     color: var(--yellow);
     padding: 4px;
 }
 
-main h4 {
+section.services h4 {
     font-weight: bold;
     color: var(--purple);
-    padding: 6px;
+    padding: 8px 0;
 }
 
-main section section {
+section.services section {
     background-color: var(--white);
     border-radius: 4%;
-    padding: 24px 18px;
-    margin: 12px;
+    padding: 26px 22px;
+    margin: 16px 8px;
 }
 
-main p {
-    padding: 6px;
+section p {
     line-height: 1.5em;
 }
 
 img {
     padding: 8px 0;
+}
+
+
+
+
+/* main , choose-us */
+main section.choose-us {
+    background-color: var(--pink);
 }

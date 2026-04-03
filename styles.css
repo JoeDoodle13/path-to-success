@@ -74,9 +74,8 @@ table {
     --pink:#D9526F;
     --dark-gray:#1E1E1E; 
     --white:#ffffff; 
-
-
 }
+
 
 
 
@@ -123,6 +122,9 @@ body {
     max-width: 450px;
 }
 
+
+
+
 /* header */
 header {
     background-color: var(--purple);
@@ -135,6 +137,9 @@ header p {
     color: var(--white);
     padding: 12px 0 4px;
 }
+
+
+
 
 /* nav */
 nav {
@@ -157,4 +162,20 @@ nav ul li {
 
 li a {
     text-decoration: none;
+}
+
+
+
+
+/* main */
+main {
+    background-color: var(--purple);
+    padding: 12px;
+}
+
+main section section {
+    background-color: var(--white);
+    border-radius: 4%;
+    padding: 18px;
+    margin: 12px;
 }

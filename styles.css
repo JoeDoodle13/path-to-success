@@ -246,3 +246,41 @@ img {
 .choose-us li:nth-child(4) {
     background-color: var(--white);
 }
+
+
+
+
+/* main , pricing */
+.pricing {
+    background-color: var(--purple);
+    padding: 18px;
+}
+
+.pricing h2 {
+    padding: 4px 4px 0;
+}
+
+.pricing h3 {
+    font-weight: bold;
+    color: var(--yellow);
+    padding: 12px 4px;
+}
+
+.pricing table {
+    margin: auto;
+}
+
+tr th {
+    text-align: center;
+    background-color: var(--yellow);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+
+}
+
+tr td {
+    background-color: var(--white);
+    padding: 16px;
+    border: 2px solid var(--yellow);
+}
